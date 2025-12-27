@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(133, 130, 130);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    background: white;
+    color: rgb(13, 13, 13);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.buttons button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startStop {
+    background: black;
+    color: white;
+}
+
+#reset {
+    background: rgb(21, 21, 21);
+    color: white;
+}
